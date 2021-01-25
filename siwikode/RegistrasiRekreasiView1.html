@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SIWIKODE</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/registrasi.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-info">
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html" style="color: aliceblue;"><i class="fa fa-desktop" aria-hidden="true"></i> SIWIKODE</a>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html" style="color: aliceblue;">
+                                    <i class="fa fa-home" aria-hidden="true"></i> Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="WisataRekreasi.html" style="color: aliceblue;">
+                                    <i class="fa fa-tripadvisor" aria-hidden="true"></i> Wisata Rekreasi
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="WisataKuliner.html" style="color: aliceblue;">
+                                    <i class="fa fa-cutlery" aria-hidden="true"></i> Wisata Kuliner
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#" data-toggle="dropdown" style="color: aliceblue;">
+                                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Registrasi</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="RegistrasiRekreasi.html">
+                                        <i class="fa fa-plus" aria-hidden="true"></i> Wisata Rekreasi</a>
+                                    <a class="dropdown-item" href="RegistrasiKuliner.html">
+                                        <i class="fa fa-plus" aria-hidden="true"></i> Wisata Kuliner</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#" data-toggle="dropdown" style="color: aliceblue;">
+                                    <i class="fa fa-user" aria-hidden="true"></i> Admin</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="AdminRekreasi.html">
+                                        <i class="fa fa-user-o" aria-hidden="true"></i> Wisata Rekreasi</a>
+                                    <a class="dropdown-item" href="AdminKuliner.html">
+                                        <i class="fa fa-user-o" aria-hidden="true"></i> Wisata Kuliner</a>
+                                    <a class="dropdown-item" href="AdminTestimoniKomentar.html">
+                                        <i class="fa fa-user-o" aria-hidden="true"></i> Testimoni/Komentar</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ml-md-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="Login.html" style="color: aliceblue;">
+                                    <i class="fa fa-user-circle-o" aria-hidden="true"></i> Login
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <br>
+                <nav>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="AdminRekreasi.html">Admin Kelola Wisata Rekreasi</a>
+                        </li>
+                        <li class="breadcrumb-item active">
+                            View Registrasi Wisata Rekreasi
+                        </li>
+                    </ol>
+                </nav>
+                <div class="card">
+                    <div class="card-header">Wisata Rekreasi</div>
+                    <div class="card-body">
+                        <form role="form" name="my-form" action="#" method="">
+                            <div class="form-group row">
+                                <label class="col-md-4 col-form-label text-md-right">Nama Tempat Wisata
+                                </label>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" id="nama" value="Alun-Alun Kota Depok" disabled>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-4 col-form-label text-md-right">Jenis Wisata</label>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" id="nama" value="Taman Bermain" disabled>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-4 col-form-label text-md-right">Deskripsi Wisata
+                                </label>
+                                <div class="col-md-6">
+                                    <textarea class="form-control" rows="5" id="deskripsi" style="text-align: justify;" disabled>Alun-Alun Kota Depok adalah sebuah tanah lapang di halaman kantor Wali Kota Depok yang akan dipergunakan sebagai Alun-Alun Kota Depok. Alun-alun Kota Depok merupakan harapan warga Kota Depok. Meski hakekatnya Alun-Alun Kota Depok ini berbeda dengan konsep kebanyakan Alun-Alun Kota di seluruh nusantara yang memiliki Alun-Alun dengan dikelilingi oleh tempat ibadah dan instansi pemerintah.</textarea>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-4 col-form-label text-md-right">Contact Person
+                                </label>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" id="contact" value="Syahar" disabled>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-4 col-form-label text-md-right">No. HP / Telepon
+                                </label>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" id="hp" value="081234567890" disabled>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-4 col-form-label text-md-right">Email</label>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" id="email" value="alfisyahar@gmail.com" disabled>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-4 col-form-label text-md-right">Alamat Web
+                                </label>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" id="web" value="www.alun2depok.com" disabled>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-4 col-form-label text-md-right">Alamat Lengkap
+                                </label>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" id="alamat" value="Jl. Boulevard Grand Depok City No.25, Jatimulya, Cilodong, Kota Depok, Jawa Barat 16413" disabled>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-4 col-form-label text-md-right">Latitude, Longitude
+                                </label>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" id="latlong" value="-6.443120,106.820710" disabled>
+                                </div>
+                            </div>
+                            <div class="col-md-6 offset-md-4">
+                                <a href="AdminRekreasi.html">
+                                    <button type="button" class="btn btn-info">Kembali</button>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="col-md-12">
+            <footer>
+                <!-- Copyright -->
+                <div class="text-center p-3">
+                    Develop by Mahasiswa @ STT-NF 2020
+                </div>
+                <!-- Copyright -->
+            </footer>
+        </div>
+    </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
