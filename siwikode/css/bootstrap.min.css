@@ -4147,6 +4147,7 @@ tbody.collapse.show {
 }
 
 .navbar {
+    background-color: #184d47;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5182,7 +5183,7 @@ tbody.collapse.show {
 
 @media (min-width:576px) {
     .jumbotron {
-        padding: 4rem 2rem
+        padding: 1.5rem 2rem
     }
 }
 

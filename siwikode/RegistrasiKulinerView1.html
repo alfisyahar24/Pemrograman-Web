@@ -19,9 +19,8 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <nav class="navbar navbar-expand-lg navbar-light bg-info">
-                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <a class="navbar-brand" href="index.html" style="color: aliceblue;"><i class="fa fa-desktop"
@@ -44,8 +43,7 @@
                                 </a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#"
-                                    data-toggle="dropdown" style="color: aliceblue;">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#" data-toggle="dropdown" style="color: aliceblue;">
                                     <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Registrasi</a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <a class="dropdown-item" href="RegistrasiRekreasi.html">
@@ -55,8 +53,7 @@
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#"
-                                    data-toggle="dropdown" style="color: aliceblue;">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#" data-toggle="dropdown" style="color: aliceblue;">
                                     <i class="fa fa-user" aria-hidden="true"></i> Admin</a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <a class="dropdown-item" href="AdminRekreasi.html">
@@ -98,7 +95,12 @@
                             <div class="form-group row">
                                 <label class="col-md-4 col-form-label text-md-right">Nama Tempat Wisata
                                 </label>
-                                <div class="col-md-6">
+                                <div class="col-md-6 input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text" style="width:1.1cm; display: flex; align-items: center; justify-content:center;">
+                                            <i class="fa fa-cutlery" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
                                     <input type="text" class="form-control" id="nama" value="Waroeng Steak" disabled>
                                 </div>
                             </div>
@@ -111,49 +113,73 @@
                             <div class="form-group row">
                                 <label class="col-md-4 col-form-label text-md-right">Deskripsi Wisata</label>
                                 <div class="col-md-6">
-                                    <textarea class="form-control" rows="10" id="deskripsi" style="text-align: justify;"
-                                        disabled>Pada awalnya, usaha ini didirikan di teras rumah kontrakan oleh Rahman Arif dan sahabatnya Fauzan Ilyas di Jalan Cenderawasih no. 30 Yogyakarta. Usaha ini tidak terlepas dari pengaruh ayah Rahman. Sebelum mempunyai usaha sendiri, mereka berdua telah aktif membantu usaha ayah Rahman yang memang telah lebih dulu berkecimpung di dunia bisnis restoran steak bernama Obonk Steak. Obonk Steak memang sudah cukup lama berdiri di Yogyakarta dan sasaran konsumen restoran ini adalah kelas menengah ke atas. Dari sinilah, Fauzan dan Rahman mempunyai ide untuk membuka tempat makan steak yang dapat menyentuh lapisan menengah ke bawah. Mereka kemudian memilih nama Waroeng sebagai nama tempat yang mereka dirikan bukan restoran atau kafe yang nampak mewah. Hal ini dimaksudkan agar dapat menarik minat mahasiswa. Mereka juga tak segan memasang daftar harga di depan Waroeng agar calon pembeli dapat mengetahui harga menu mereka yang murah. Uniknya, Waroeng Steak ini menyediakan nasi untuk dimakan dengan steak (bukan kentang, kacang panjang, wortel, atau jenis makanan lain yang biasa dimakan bersama steak. Sampai saati ini outlet Waroeng Steak berkembang menjadi 80an outlet di seluruh Indonesia dari Medan sampai Makassar.</textarea>
+                                    <textarea class="form-control" rows="10" id="deskripsi" style="text-align: justify;" disabled>Pada awalnya, usaha ini didirikan di teras rumah kontrakan oleh Rahman Arif dan sahabatnya Fauzan Ilyas di Jalan Cenderawasih no. 30 Yogyakarta. Usaha ini tidak terlepas dari pengaruh ayah Rahman. Sebelum mempunyai usaha sendiri, mereka berdua telah aktif membantu usaha ayah Rahman yang memang telah lebih dulu berkecimpung di dunia bisnis restoran steak bernama Obonk Steak. Obonk Steak memang sudah cukup lama berdiri di Yogyakarta dan sasaran konsumen restoran ini adalah kelas menengah ke atas. Dari sinilah, Fauzan dan Rahman mempunyai ide untuk membuka tempat makan steak yang dapat menyentuh lapisan menengah ke bawah. Mereka kemudian memilih nama Waroeng sebagai nama tempat yang mereka dirikan bukan restoran atau kafe yang nampak mewah. Hal ini dimaksudkan agar dapat menarik minat mahasiswa. Mereka juga tak segan memasang daftar harga di depan Waroeng agar calon pembeli dapat mengetahui harga menu mereka yang murah. Uniknya, Waroeng Steak ini menyediakan nasi untuk dimakan dengan steak (bukan kentang, kacang panjang, wortel, atau jenis makanan lain yang biasa dimakan bersama steak. Sampai saati ini outlet Waroeng Steak berkembang menjadi 80an outlet di seluruh Indonesia dari Medan sampai Makassar.</textarea>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-md-4 col-form-label text-md-right">Contact Person</label>
-                                <div class="col-md-6">
+                                <div class="col-md-6 input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text" style="width:1.1cm; display: flex; align-items: center; justify-content:center;">
+                                            <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
                                     <input type="text" class="form-control" id="contact" value="Arif" disabled>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-md-4 col-form-label text-md-right">No. HP / Telepon</label>
-                                <div class="col-md-6">
+                                <div class="col-md-6 input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text" style="width:1.1cm; display: flex; align-items: center; justify-content:center;">
+                                            <i class="fa fa-phone" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
                                     <input type="text" class="form-control" id="hp" value="082233445566" disabled>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-md-4 col-form-label text-md-right">Email</label>
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" id="email" value="rahmanarif@gmail.com"
-                                        disabled>
+                                <div class="col-md-6 input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text" style="width:1.1cm; display: flex; align-items: center; justify-content:center;">
+                                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <input type="text" class="form-control" id="email" value="rahmanarif@gmail.com" disabled>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-md-4 col-form-label text-md-right">Alamat Web</label>
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" id="web" value="www.waroengsteak.com"
-                                        disabled>
+                                <div class="col-md-6 input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text" style="width:1.1cm; display: flex; align-items: center; justify-content:center;">
+                                            <i class="fa fa-internet-explorer" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <input type="text" class="form-control" id="web" value="www.waroengsteak.com" disabled>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-md-4 col-form-label text-md-right">Alamat Lengkap</label>
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" id="alamat"
-                                        value="Jl. Margonda Raya No.289, Kemiri Muka, Beji, Kota Depok, Jawa Barat 16421"
-                                        disabled>
+                                <div class="col-md-6 input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text" style="width:1.1cm; display: flex; align-items: center; justify-content:center;">
+                                            <i class="fa fa-map" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <input type="text" class="form-control" id="alamat" value="Jl. Margonda Raya No.289, Kemiri Muka, Beji, Kota Depok, Jawa Barat 16421" disabled>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-md-4 col-form-label text-md-right">Latitude, Longitude</label>
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" id="latlong"
-                                        value="-6.378230677108308, 106.83158372777923" disabled>
+                                <div class="col-md-6 input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text" style="width:1.1cm; display: flex; align-items: center; justify-content:center;">
+                                            <i class="fa fa-street-view" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <input type="text" class="form-control" id="latlong" value="-6.378230677108308, 106.83158372777923" disabled>
                                 </div>
                             </div>
                             <div class="col-md-6 offset-md-4">

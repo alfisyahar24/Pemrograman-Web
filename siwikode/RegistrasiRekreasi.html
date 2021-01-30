@@ -19,7 +19,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <nav class="navbar navbar-expand-lg navbar-light bg-info">
+                <nav class="navbar navbar-expand-lg navbar-light">
                     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
                         data-target="#bs-example-navbar-collapse-1">
                         <span class="navbar-toggler-icon"></span>
@@ -96,19 +96,17 @@
                                 <label class="col-md-4 col-form-label text-md-right">Nama Tempat Wisata</label>
                                 <div class="col-md-6 input-group">
                                     <div class="input-group-prepend">
-                                        <div class="input-group-text"><i class="fa fa-user-circle-o"
-                                                aria-hidden="true"></i></div>
+                                        <div class="input-group-text"
+                                            style="width:1.1cm; display: flex; align-items: center; justify-content:center;">
+                                            <i class="fa fa-tripadvisor" aria-hidden="true"></i>
+                                        </div>
                                     </div>
                                     <input type="text" class="form-control" id="nama">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-md-4 col-form-label text-md-right">Jenis Wisata</label>
-                                <div class="col-md-6 input-group">
-                                    <div class="input-group-prepend">
-                                        <div class="input-group-text"><i class="fa fa-user-circle-o"
-                                                aria-hidden="true"></i></div>
-                                    </div>
+                                <div class="col-md-6">
                                     <select class="form-control" id="jenisWisata">
                                         <option selected>Jenis Wisata</option>
                                         <option>Taman Bermain</option>
@@ -120,11 +118,7 @@
                             <div class="form-group row">
                                 <label class="col-md-4 col-form-label text-md-right">Deskripsi Wisata
                                 </label>
-                                <div class="col-md-6 input-group">
-                                    <div class="input-group-prepend">
-                                        <div class="input-group-text"><i class="fa fa-user-circle-o"
-                                                aria-hidden="true"></i></div>
-                                    </div>
+                                <div class="col-md-6">
                                     <textarea class="form-control" rows="4" id="deskripsi"></textarea>
                                 </div>
                             </div>
@@ -133,8 +127,10 @@
                                 </label>
                                 <div class="col-md-6 input-group">
                                     <div class="input-group-prepend">
-                                        <div class="input-group-text"><i class="fa fa-user-circle-o"
-                                                aria-hidden="true"></i></div>
+                                        <div class="input-group-text"
+                                            style="width:1.1cm; display: flex; align-items: center; justify-content:center;">
+                                            <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                                        </div>
                                     </div>
                                     <input type="text" class="form-control" id="contact">
                                 </div>
@@ -144,20 +140,24 @@
                                 </label>
                                 <div class="col-md-6 input-group">
                                     <div class="input-group-prepend">
-                                        <div class="input-group-text"><i class="fa fa-user-circle-o"
-                                                aria-hidden="true"></i></div>
+                                        <div class="input-group-text"
+                                            style="width:1.1cm; display: flex; align-items: center; justify-content:center;">
+                                            <i class="fa fa-phone" aria-hidden="true"></i>
+                                        </div>
                                     </div>
-                                    <input type="text" class="form-control" id="hp">
+                                    <input type="text" class="form-control" id="hp" placeholder="085789102900">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-md-4 col-form-label text-md-right">Email</label>
                                 <div class="col-md-6 input-group">
                                     <div class="input-group-prepend">
-                                        <div class="input-group-text"><i class="fa fa-user-circle-o"
-                                                aria-hidden="true"></i></div>
+                                        <div class="input-group-text"
+                                            style="width:1.1cm; display: flex; align-items: center; justify-content:center;">
+                                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        </div>
                                     </div>
-                                    <input type="text" class="form-control" id="email">
+                                    <input type="text" class="form-control" id="email" placeholder="example@gmail.com">
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -165,10 +165,12 @@
                                 </label>
                                 <div class="col-md-6 input-group">
                                     <div class="input-group-prepend">
-                                        <div class="input-group-text"><i class="fa fa-user-circle-o"
-                                                aria-hidden="true"></i></div>
+                                        <div class="input-group-text"
+                                            style="width:1.1cm; display: flex; align-items: center; justify-content:center;">
+                                            <i class="fa fa-internet-explorer" aria-hidden="true"></i>
+                                        </div>
                                     </div>
-                                    <input type="text" class="form-control" id="web">
+                                    <input type="text" class="form-control" id="web" placeholder="www.example.com">
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -176,8 +178,10 @@
                                 </label>
                                 <div class="col-md-6 input-group">
                                     <div class="input-group-prepend">
-                                        <div class="input-group-text"><i class="fa fa-user-circle-o"
-                                                aria-hidden="true"></i></div>
+                                        <div class="input-group-text"
+                                            style="width:1.1cm; display: flex; align-items: center; justify-content:center;">
+                                            <i class="fa fa-map" aria-hidden="true"></i>
+                                        </div>
                                     </div>
                                     <input type="text" class="form-control" id="alamat">
                                 </div>
@@ -187,10 +191,13 @@
                                 </label>
                                 <div class="col-md-6 input-group">
                                     <div class="input-group-prepend">
-                                        <div class="input-group-text"><i class="fa fa-user-circle-o"
-                                                aria-hidden="true"></i></div>
+                                        <div class="input-group-text"
+                                            style="width:1.1cm; display: flex; align-items: center; justify-content:center;">
+                                            <i class="fa fa-street-view" aria-hidden="true"></i>
+                                        </div>
                                     </div>
-                                    <input type="text" class="form-control" id="latlong">
+                                    <input type="text" class="form-control" id="latlong"
+                                        placeholder="-6.3528842831563015, 106.83263836176891">
                                 </div>
                             </div>
                             <div class="col-md-6 offset-md-4">

@@ -19,9 +19,8 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <nav class="navbar navbar-expand-lg navbar-light bg-info">
-                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <a class="navbar-brand" href="index.html" style="color: aliceblue;"><i class="fa fa-desktop"
@@ -44,8 +43,7 @@
                                 </a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#"
-                                    data-toggle="dropdown" style="color: aliceblue;">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#" data-toggle="dropdown" style="color: aliceblue;">
                                     <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Registrasi</a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <a class="dropdown-item" href="RegistrasiRekreasi.html">
@@ -55,8 +53,7 @@
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#"
-                                    data-toggle="dropdown" style="color: aliceblue;">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" href="#" data-toggle="dropdown" style="color: aliceblue;">
                                     <i class="fa fa-user" aria-hidden="true"></i> Admin</a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <a class="dropdown-item" href="AdminRekreasi.html">
@@ -98,7 +95,12 @@
                             <div class="form-group row">
                                 <label class="col-md-4 col-form-label text-md-right">Nama Tempat Wisata
                                 </label>
-                                <div class="col-md-6">
+                                <div class="col-md-6 input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text" style="width:1.1cm; display: flex; align-items: center; justify-content:center;">
+                                            <i class="fa fa-cutlery" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
                                     <input type="text" class="form-control" id="nama" value="Makaroni Ngehe Echo Depok">
                                 </div>
                             </div>
@@ -117,51 +119,78 @@
                                 <label class="col-md-4 col-form-label text-md-right">Deskripsi Wisata
                                 </label>
                                 <div class="col-md-6">
-                                    <textarea class="form-control" rows="8" id="deskripsi"
-                                        style="text-align: justify;">Secara resmi berdiri pada tanggal 11 maret 2013 di dekat tikungan Kampus Binus Anggrek. Sebuah outlet cemilan khas Tasikmalaya yang menjual cemilan dengan bahan baku utama makaroni yang digoreng kering renyah ataupun basah pulen. Selain makaroni kering dan basah, kami menyediakan variasi lain yang tidak kalah seru enaknya. Diantaranya otak-otak, bihun garing dan juga mie krenyes. Rasa pedas dan asin gurihnya sederhana, namun memberikan sensasi kelezatan yang menggoda. Sekali coba, bayang-bayang kelezatannya akan terus tinggal di lidah dan membuat anda ingin mencicipinya.. lagi lagi dan lagi.</textarea>
+                                    <textarea class="form-control" rows="8" id="deskripsi" style="text-align: justify;">Secara resmi berdiri pada tanggal 11 maret 2013 di dekat tikungan Kampus Binus Anggrek. Sebuah outlet cemilan khas Tasikmalaya yang menjual cemilan dengan bahan baku utama makaroni yang digoreng kering renyah ataupun basah pulen. Selain makaroni kering dan basah, kami menyediakan variasi lain yang tidak kalah seru enaknya. Diantaranya otak-otak, bihun garing dan juga mie krenyes. Rasa pedas dan asin gurihnya sederhana, namun memberikan sensasi kelezatan yang menggoda. Sekali coba, bayang-bayang kelezatannya akan terus tinggal di lidah dan membuat anda ingin mencicipinya.. lagi lagi dan lagi.</textarea>
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-md-4 col-form-label text-md-right">Contact Person
                                 </label>
-                                <div class="col-md-6">
+                                <div class="col-md-6 input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text" style="width:1.1cm; display: flex; align-items: center; justify-content:center;">
+                                            <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
                                     <input type="text" class="form-control" id="contact" value="Yahya">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-md-4 col-form-label text-md-right">No. HP / Telepon
                                 </label>
-                                <div class="col-md-6">
+                                <div class="col-md-6 input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text" style="width:1.1cm; display: flex; align-items: center; justify-content:center;">
+                                            <i class="fa fa-phone" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
                                     <input type="text" class="form-control" id="hp" value="081345678910">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-md-4 col-form-label text-md-right">Email</label>
-                                <div class="col-md-6">
+                                <div class="col-md-6 input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text" style="width:1.1cm; display: flex; align-items: center; justify-content:center;">
+                                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
                                     <input type="text" class="form-control" id="email" value="hilmanyahya@gmail.com">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-md-4 col-form-label text-md-right">Alamat Web
                                 </label>
-                                <div class="col-md-6">
+                                <div class="col-md-6 input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text" style="width:1.1cm; display: flex; align-items: center; justify-content:center;">
+                                            <i class="fa fa-internet-explorer" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
                                     <input type="text" class="form-control" id="web" value="www.ngehe.com">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-md-4 col-form-label text-md-right">Alamat Lengkap
                                 </label>
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" id="alamat"
-                                        value="Jl. Margonda Raya No.397, Kemiri Muka, Beji, Kota Depok, Jawa Barat 16424">
+                                <div class="col-md-6 input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text" style="width:1.1cm; display: flex; align-items: center; justify-content:center;">
+                                            <i class="fa fa-map" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <input type="text" class="form-control" id="alamat" value="Jl. Margonda Raya No.397, Kemiri Muka, Beji, Kota Depok, Jawa Barat 16424">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <label class="col-md-4 col-form-label text-md-right">Latitude, Longitude
                                 </label>
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" id="latlong"
-                                        value="-6.3702421047914655, 106.83418734170382">
+                                <div class="col-md-6 input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text" style="width:1.1cm; display: flex; align-items: center; justify-content:center;">
+                                            <i class="fa fa-street-view" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <input type="text" class="form-control" id="latlong" value="-6.3702421047914655, 106.83418734170382">
                                 </div>
                             </div>
                             <div class="col-md-6 offset-md-4">
